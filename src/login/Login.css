@@ -1,0 +1,22 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.np-login {
+    height: 100vh;
+}
+.np-login__form {
+    padding: 50px;
+}
+.np-login__title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 37px;
+    margin-top: 23px;
+}
