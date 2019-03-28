@@ -11,3 +11,4 @@ artifacts:
   files:
   - build/**/*
   name: my-diet-react
+  discard-paths: yes
