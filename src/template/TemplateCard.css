@@ -1,0 +1,13 @@
+.template-card i.template-card__edit {
+    display: none;
+    margin-left: 15px;
+}
+
+.template-card:hover i.template-card__edit{
+    display: inline;
+}
+
+.modal .template-card {
+    margin: auto !important;
+    margin-bottom: 15px !important;
+}

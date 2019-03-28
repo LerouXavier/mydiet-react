@@ -10,13 +10,16 @@
     height: 100vh;
 }
 .np-login__form {
-    padding: 50px;
+    padding: 50px !important;
+    min-width: 350px;
+    max-width: 550px !important;
 }
 .np-login__title {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 54px;
+    font-size: 2em;
     margin-bottom: 37px;
     margin-top: 23px;
+    line-height: .85em;
 }

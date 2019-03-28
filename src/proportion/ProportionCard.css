@@ -1,0 +1,37 @@
+.proportion-card {
+
+}
+.proportion-card__calories {
+    color: rgba(0,0,0,.4);
+}
+.proportion-card i.proportion-card__edit {
+    display: none;
+    margin-left: 15px;
+}
+
+.proportion-card:hover i.proportion-card__edit{
+    display: inline;
+ }
+
+.proportion-editor__chart,
+.proportion-editor__macronutrients {
+    margin: auto !important;
+    display: block !important;
+    text-align: center;
+}
+
+.proportion-card__macronutrient {
+    text-align: center;
+ }
+
+.item .proportion-card__macronutrient.content>div.header{
+    margin-bottom: 10px;
+ }
+
+.proportion-card__create .content i.inverted.circular.icon {
+    background-color: #ccc !important;
+ }
+
+.proportion-card__create:hover .content i.inverted.circular.icon {
+    background-color: #5cae5c !important;
+ }

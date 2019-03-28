@@ -1,0 +1,7 @@
+.template-editor .jodit_fullsize {
+    margin-top: -15px;
+    position: static;
+}
+.template-editor__workplace {
+    height: calc(100vh - 127px) !important;
+}
