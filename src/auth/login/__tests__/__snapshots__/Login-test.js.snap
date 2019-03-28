@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginComponent should display error message when credentials are incorrect 1`] = `
+<form
+  action={undefined}
+  className="ui error form"
+  onSubmit={[Function]}
+>
+  <div
+    className="field nu-login__email"
+  >
+    <label
+      htmlFor={undefined}
+    >
+      Wprowaź adres E-mail
+    </label>
+    <div
+      className="ui input"
+      content={undefined}
+    >
+      <input
+        disabled={undefined}
+        onChange={[Function]}
+        required={undefined}
+        tabIndex={undefined}
+        type="email"
+      />
+    </div>
+  </div>
+  <div
+    className="field nu-login__password"
+  >
+    <label
+      htmlFor={undefined}
+    >
+      Hasło
+    </label>
+    <div
+      className="ui input"
+      content={undefined}
+    >
+      <input
+        disabled={undefined}
+        onChange={[Function]}
+        required={undefined}
+        tabIndex={undefined}
+        type="password"
+      />
+    </div>
+  </div>
+  <div
+    className="ui error message"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        Wrong credentials
+      </div>
+      <p>
+        The credentials you supplied were not correct or did not grant access to this resource.
+      </p>
+    </div>
+  </div>
+  <div
+    className="disabled field nu-login__submit"
+  >
+    <button
+      className="ui positive disabled right floated button"
+      disabled={true}
+      onClick={[Function]}
+      required={undefined}
+      role="button"
+      tabIndex={-1}
+      type={undefined}
+    >
+      Zaloguj
+    </button>
+  </div>
+</form>
+`;
+
+exports[`LoginComponent should render correctly 1`] = `
+<form
+  action={undefined}
+  className="ui form"
+  onSubmit={[Function]}
+>
+  <div
+    className="field nu-login__email"
+  >
+    <label
+      htmlFor={undefined}
+    >
+      Wprowaź adres E-mail
+    </label>
+    <div
+      className="ui input"
+      content={undefined}
+    >
+      <input
+        disabled={undefined}
+        onChange={[Function]}
+        required={undefined}
+        tabIndex={undefined}
+        type="email"
+      />
+    </div>
+  </div>
+  <div
+    className="field nu-login__password"
+  >
+    <label
+      htmlFor={undefined}
+    >
+      Hasło
+    </label>
+    <div
+      className="ui input"
+      content={undefined}
+    >
+      <input
+        disabled={undefined}
+        onChange={[Function]}
+        required={undefined}
+        tabIndex={undefined}
+        type="password"
+      />
+    </div>
+  </div>
+  <div
+    className="disabled field nu-login__submit"
+  >
+    <button
+      className="ui positive disabled right floated button"
+      disabled={true}
+      onClick={[Function]}
+      required={undefined}
+      role="button"
+      tabIndex={-1}
+      type={undefined}
+    >
+      Zaloguj
+    </button>
+  </div>
+</form>
+`;

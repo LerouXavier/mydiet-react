@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register should render correctly 1`] = `
+Array [
+  <div
+    className="field"
+>
+    <label
+        htmlFor={undefined}
+    >
+        Imię
+    </label>
+    <div
+        className="ui input"
+        content={undefined}
+    >
+        <input
+            disabled={undefined}
+            onChange={[Function]}
+            required={undefined}
+            tabIndex={undefined}
+            type="text"
+        />
+    </div>
+</div>,
+  <div
+    className="field"
+>
+    <label
+        htmlFor={undefined}
+    >
+        Nazwisko
+    </label>
+    <div
+        className="ui input"
+        content={undefined}
+    >
+        <input
+            disabled={undefined}
+            onChange={[Function]}
+            required={undefined}
+            tabIndex={undefined}
+            type="text"
+        />
+    </div>
+</div>,
+  <div
+    className="required field"
+>
+    <label
+        htmlFor={undefined}
+    >
+        Wprowaź adres E-mail
+    </label>
+    <div
+        className="ui input"
+        content={undefined}
+    >
+        <input
+            disabled={undefined}
+            onChange={[Function]}
+            required={true}
+            tabIndex={undefined}
+            type="email"
+        />
+    </div>
+</div>,
+  <div
+    className="required field"
+>
+    <label
+        htmlFor={undefined}
+    >
+        Hasło
+    </label>
+    <div
+        className="ui input"
+        content={undefined}
+    >
+        <input
+            disabled={undefined}
+            onChange={[Function]}
+            required={true}
+            tabIndex={undefined}
+            type="password"
+        />
+    </div>
+</div>,
+  <div
+    className="disabled field"
+>
+    <button
+        className="ui positive disabled right floated button"
+        disabled={true}
+        onClick={[Function]}
+        required={undefined}
+        role="button"
+        tabIndex={-1}
+        type={undefined}
+    >
+        Zarejestruj
+    </button>
+</div>,
+]
+`;
