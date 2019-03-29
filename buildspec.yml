@@ -12,6 +12,6 @@ phases:
       - aws s3 rm s3://my-diet-react --recursive
 artifacts:
   files:
-  - build/**/*
+  - '**/*'
   name: my-diet-react
   base-directory: build
