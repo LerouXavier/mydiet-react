@@ -14,3 +14,4 @@ artifacts:
   files:
   - build/**/*
   name: my-diet-react
+  base-directory: build
