@@ -1,38 +1,28 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
-import {Route, Switch} from 'react-router';
+import {Route} from 'react-router';
 import {BrowserRouter} from 'react-router-dom';
 
 import {AuthorizedRoute} from './auth/AuthorizedRoute';
 
 import {Auth} from './auth/Auth';
-import {Dashboard} from './dashboard/Dashboard';
 
 import './App.css';
-import {Menu} from './Menu';
-import {ProportionEditor} from './proportion/ProportionEditor';
-import {TemplateEditor} from './template/TemplateEditor';
-import {TemplateIssue} from './template/TemplateIssue';
+import {MainMenu} from './Menu';
 
-const mapStateToProps = (state) => ({
-    hasSession: state.session.hasSession
-});
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
 
-export const App = connect(mapStateToProps, null)(({hasSession}) => {
+Amplify.configure(awsconfig);
+
+export const App = ({hasSession}) => {
     return (
         <BrowserRouter>
             <React.Fragment>
-                <AuthorizedRoute authorized={hasSession} path="/" component={Menu}/>
-                <Route exact path={'/register'} component={Auth}/>
-                <Route exact path={'/login'} component={Auth}/>
-                <Switch>
-                    <AuthorizedRoute authorized={hasSession} path="/template/:templateId/issue" component={TemplateIssue}/>
-                    <AuthorizedRoute authorized={hasSession} path="/template/:templateId" component={TemplateEditor}/>
-                    <AuthorizedRoute authorized={hasSession} path="/proportion/:proportionId" component={ProportionEditor}/>
-                </Switch>
-                <AuthorizedRoute authorized={hasSession} path='/' component={Dashboard}/>
+                <AuthorizedRoute authorized={hasSession} path="/" component={MainMenu}/>
+                <Route exact path={'/sign-up'} component={Auth}/>
+                <Route exact path={'/sign-in'} component={Auth}/>
             </React.Fragment>
         </BrowserRouter>
     );
-});
+};

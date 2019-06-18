@@ -3,9 +3,9 @@ import { Route, Redirect } from 'react-router-dom';
 import {isUndefined as _isUndefined} from 'lodash'
 
 export const AuthorizedRoute = ({ component: Component, render, ...rest }) => {
-    if (_isUndefined(rest.authorized)) {
-        throw new Error('You must provide an authorization status!');
-    }
+    // if (_isUndefined(rest.authorized)) {
+    //     throw new Error('You must provide an authorization status!');
+    // }
     return (
         <Route
             {...rest}
